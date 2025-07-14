@@ -4,9 +4,9 @@ import React, { useEffect, useRef, useState } from "react";
 import styles from "./HeroSection.module.css";
 
 const images = [
-  "/assets/images/cover-images/bagan-sunrise.jpg",
-  "/assets/images/cover-images/bagan-sunset.jpg",
-  "/assets/images/cover-images-title/10.jpg",
+    "/assets/images/cover-images-mm-title/26.jpg",
+    "/assets/images/cover-images-mm-title/27.jpg",
+  "/assets/images/cover-images-mm-title/28.jpg",
 ];
 
 export default function HeroSection() {
