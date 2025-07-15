@@ -119,6 +119,14 @@
   }
   .tdContent {
     padding: 18px 6px;
+    text-align: center;
+  }
+  .tdList {
+    display: flex;
+    gap: 12em;
+  }
+  .colLeft {
+    display: none;
   }
 }
 
@@ -127,6 +135,9 @@
     padding: 14px 0;
   }
   .tdPlaneBg {
+    display: none;
+  }
+  .colLeft{
     display: none;
   }
 }

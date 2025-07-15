@@ -1,3 +1,28 @@
+.pageContainer {
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 992px) {
+  .pageContainer {
+    padding-top: 60px; 
+  }
+  .dot {
+    width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  }
+}
+@media screen and (max-width: 448px) {
+  .pageContainer {
+    padding-top: 100px; 
+  }
+  .dot {
+    width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  }
+}
 .heroSection {
   width: 100%;
   margin: 0 auto;
