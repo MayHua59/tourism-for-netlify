@@ -11,7 +11,7 @@ export const metadata = {
 export default function VisaExemption() {
   return (
     <div className={styles.pageContainer}>
-      <BannerSection imageUrl="/assets/images/cover-images-title/7.jpg" altText="visa exemption cover photo" />
+      <BannerSection imageUrl="/assets/images/sample-images/16x6.jpg" altText="visa exemption cover photo" className={styles.banner}/>
       <Breadcrumb
         items={[
           { label: "Home", href: "/", icon: faHome },

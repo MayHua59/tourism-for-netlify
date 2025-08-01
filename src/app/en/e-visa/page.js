@@ -11,7 +11,7 @@ export const metadata = {
 export default function EVisa() {
   return (
     <div className={styles.pageContainer}>
-      <BannerSection imageUrl="/assets/images/cover-images-title/7.jpg" altText="electronic visa cover photo" />
+      <BannerSection imageUrl="/assets/images/sample-images/16x4.jpg" altText="electronic visa cover photo" className={styles.banner}/>
       <Breadcrumb
         items={[
           { label: "Home", href: "/", icon: faHome },
