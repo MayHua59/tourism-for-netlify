@@ -11,7 +11,7 @@ export const metadata = {
 export default function TourismPoliceOffices() {
   return (
     <div className={styles.pageContainer}>
-      <BannerSection imageUrl="/assets/images/cover-images-title/8.jpg" altText="tourism police offices cover photo" />
+      <BannerSection imageUrl="/assets/images/sample-images/4.jpg" altText="visa on arrival cover photo" className={styles.banner}/>
       <Breadcrumb
         items={[
           { label: "Home", href: "/", icon: faHome },

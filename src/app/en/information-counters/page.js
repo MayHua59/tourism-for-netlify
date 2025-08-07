@@ -11,7 +11,7 @@ export const metadata = {
 export default function InformationCounters() {
   return (
     <div className={styles.pageContainer}>
-      <BannerSection imageUrl="/assets/images/cover-images-title/8.jpg" altText="information counters cover photo" />
+      <BannerSection imageUrl="/assets/images/sample-images/3.jpg" altText="information counters" className={styles.banner}/>
       <Breadcrumb
         items={[
           { label: "Home", href: "/", icon: faHome },
